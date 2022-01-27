@@ -9,17 +9,17 @@ public class SlotMachine2 {
 
     int[]reel1 = {1, 2, 3, 4, 5, 6};
 
-    int randomItemFromArray1 = reel1[randomGenerator.nextInt(reel1.length)];
-    int randomItemFromArray2 = reel1[randomGenerator.nextInt(reel1.length)];
-    int randomItemFromArray3 = reel1[randomGenerator.nextInt(reel1.length)];
+    int randomItemFromArray1; 
+    int randomItemFromArray2;
+    int randomItemFromArray3;
 
-    int randomItemFromArray4 = reel1[randomGenerator.nextInt(reel1.length)];
-    int randomItemFromArray5 = reel1[randomGenerator.nextInt(reel1.length)];
-    int randomItemFromArray6 = reel1[randomGenerator.nextInt(reel1.length)];
+    int randomItemFromArray4;
+    int randomItemFromArray5;
+    int randomItemFromArray6;
 
-    int randomItemFromArray7 = reel1[randomGenerator.nextInt(reel1.length)];
-    int randomItemFromArray8 = reel1[randomGenerator.nextInt(reel1.length)];
-    int randomItemFromArray9 = reel1[randomGenerator.nextInt(reel1.length)];
+    int randomItemFromArray7;
+    int randomItemFromArray8;
+    int randomItemFromArray9;
 
     private void playagain(){
 
@@ -65,17 +65,17 @@ public class SlotMachine2 {
 
     private void printslotmachine(){
         
-        int randomItemFromArray1 = reel1[randomGenerator.nextInt(reel1.length)];
-        int randomItemFromArray2 = reel1[randomGenerator.nextInt(reel1.length)];
-        int randomItemFromArray3 = reel1[randomGenerator.nextInt(reel1.length)];
+         randomItemFromArray1 = reel1[randomGenerator.nextInt(reel1.length)];
+         randomItemFromArray2 = reel1[randomGenerator.nextInt(reel1.length)];
+         randomItemFromArray3 = reel1[randomGenerator.nextInt(reel1.length)];
     
-        int randomItemFromArray4 = reel1[randomGenerator.nextInt(reel1.length)];
-        int randomItemFromArray5 = reel1[randomGenerator.nextInt(reel1.length)];
-        int randomItemFromArray6 = reel1[randomGenerator.nextInt(reel1.length)];
+         randomItemFromArray4 = reel1[randomGenerator.nextInt(reel1.length)];
+         randomItemFromArray5 = reel1[randomGenerator.nextInt(reel1.length)];
+         randomItemFromArray6 = reel1[randomGenerator.nextInt(reel1.length)];
     
-        int randomItemFromArray7 = reel1[randomGenerator.nextInt(reel1.length)];
-        int randomItemFromArray8 = reel1[randomGenerator.nextInt(reel1.length)];
-        int randomItemFromArray9 = reel1[randomGenerator.nextInt(reel1.length)];
+         randomItemFromArray7 = reel1[randomGenerator.nextInt(reel1.length)];
+         randomItemFromArray8 = reel1[randomGenerator.nextInt(reel1.length)];
+         randomItemFromArray9 = reel1[randomGenerator.nextInt(reel1.length)];
     
         
         System.out.printf("| %c | %c | %c |\n", displaySq(randomItemFromArray1) , displaySq(randomItemFromArray2), displaySq(randomItemFromArray3));
